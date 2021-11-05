@@ -30,6 +30,9 @@ module.exports = {
         extensions: [".js", ".jsx"]
     },
     plugins: [
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({
+            inject: "body",
+            title: "React test selector example application",
+        })
     ],
 };
