@@ -1,0 +1,38 @@
+{
+  "name": "example-application-for-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:react-test-selector/example-application-for-docs.git",
+  "author": "Eugene Tihonov <tihonov.ea@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "16.*",
+    "react-dom": "16.*",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 5%"
+  ],
+  "dependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1"
+  }
+}

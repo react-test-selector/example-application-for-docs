@@ -1,0 +1,13 @@
+.input {
+    height: 32px;
+    box-sizing: border-box;
+    line-height: 30px;
+    border: 1px solid #aaa;
+    padding: 0 8px;
+    border-radius: 0;
+}
+
+.input:focus {
+    outline: 1px solid #457B9D;
+    border: 1px solid #457B9D;
+}
