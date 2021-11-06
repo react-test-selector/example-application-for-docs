@@ -6,7 +6,7 @@
   "author": "Eugene Tihonov <tihonov.ea@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack",
     "start": "webpack serve"
   },
   "devDependencies": {
